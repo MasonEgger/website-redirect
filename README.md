@@ -1,6 +1,8 @@
-# Getting Started #
+# website-redirect #
 
-These steps will get this sample application running for you using DigitalOcean.
+This app simply redirects whatever DNS name you point at it to another site. 
+
+When deploying set an environment variable `REDIRECT_TO` to the location you want to redirect to 
 
 **Note: Following these steps will result in charges for the use of DigitalOcean services**
 
