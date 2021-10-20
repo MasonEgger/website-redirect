@@ -1,0 +1,9 @@
+spec:
+  services:
+    - name: website-redirect
+      git:
+        branch: main
+        repo_clone_url: https://github.com/MasonEgger/website-redirect.git
+      envs:
+        - key: REDIRECT_TO
+          value: "https://mason.dev"
