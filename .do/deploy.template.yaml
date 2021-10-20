@@ -1,4 +1,5 @@
 spec:
+  name: website-redirect
   services:
     - name: website-redirect
       git:
