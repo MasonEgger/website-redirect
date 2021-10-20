@@ -1,4 +1,4 @@
-# website-redirect # [![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/masonegger/website-redirect/tree/main)
+# website-redirect [![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/masonegger/website-redirect/tree/main)
 
 This simple Flask app allows you to perform a 301 redirect. You set the redirect
 the location you want to redirect to in the `REDIRECT_TO` environment variable.
