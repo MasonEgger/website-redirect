@@ -5,8 +5,8 @@ from flask import Flask,redirect
 
 app = Flask(__name__)
 
-@app.route('/')
-def hello():
+@app.errorhandler(404)
+def redirect_all_urls(e):
     return redirect(os.environ.get("REDIRECT_TO", "https://www.google.com"), code=301)
 
 if __name__ == '__main__':
